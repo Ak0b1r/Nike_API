@@ -1,0 +1,37 @@
+.footer {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+        font-family: 'Montserrat';
+        font-size: 30px;
+        font-weight: 700;
+        color: #000;
+
+        span {
+            color: #f63;
+        }
+    }
+
+    &__date {
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+    }
+
+    &__social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: #f63;
+        font-size: 20px;
+        transition: .3s;
+    }
+}

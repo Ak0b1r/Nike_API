@@ -1,0 +1,40 @@
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__search {
+        padding: 6px 12px;
+        border-radius: 6px;
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 500px;
+    }
+    &__box{
+        display: flex;
+    }
+    &__price{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-right: 12px;
+    }
+    &__price_input,
+    &__select {
+        padding: 10px;
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+    }
+    &__price_input{
+        width: 80px;
+    }
+}

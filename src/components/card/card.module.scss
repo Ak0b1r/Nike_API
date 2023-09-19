@@ -1,0 +1,60 @@
+.card {
+    padding: 16px;
+    background: #fff;
+
+    &__image {
+        width: 100%;
+        height: 220px;
+    }
+
+    &__box {
+        margin-top: 32px;
+    }
+
+    &__title {
+        color: #f63;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 20px;
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__price {
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    &__btn {
+        padding: 5px 20px;
+        color: #000;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: 1px solid #005C67;
+        background: transparent;
+        transition: .3s;
+
+        &:hover {
+            color: #fff;
+            background: #000;
+        }
+    }
+}

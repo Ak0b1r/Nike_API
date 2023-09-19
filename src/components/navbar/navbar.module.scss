@@ -1,0 +1,68 @@
+.header {
+    padding: 33px 0;
+
+    &__container {
+        position: relative;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        width: 138px;
+        height: 105px;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 70px;
+    }
+
+    &__link {
+        color: #00000070;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        cursor: default;
+    }
+
+
+    &__basket {
+        font-size: 24px;
+        color: #f63;
+        background: transparent;
+        position: relative;
+
+        span {
+            font-size: 14px;
+            position: absolute;
+            border-radius: 500px;
+            border: 1px solid #000;
+            background: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            top: -20px;
+            right: -20px;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.block {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
